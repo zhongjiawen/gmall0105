@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec39ae98-9bcb-4318-861e-abd9725c1eab" name="Default Changelist" comment="manage 搭建成功">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/75742e40-2a3e-49a0-8fda-98acc28d932c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/75742e40-2a3e-49a0-8fda-98acc28d932c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gmall0105.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ijson_common_in_auto_config_zkclient_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_50_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_2_7_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_spring_boot_autoconfigure_2_7_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_spring_boot_autoconfigure_compatible_2_7_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_spring_boot_starter_2_7_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_ext_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_shared_resources_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/gamall-user.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/target/classes/com/atguigu/gmall/user/GamallUserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/target/classes/com/atguigu/gmall/user/mapper/UmsMemberReceiveAddressMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/target/classes/com/atguigu/gmall/user/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/target/classes/com/atguigu/gmall/user/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamall-user/target/test-classes/com/atguigu/gmall/user/GamallUserApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/gamll-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/src/main/java/com/atguigu/gmall/service/AttrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/src/main/java/com/atguigu/gmall/service/CatalogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/src/main/java/com/atguigu/gmall/service/SkuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/src/main/java/com/atguigu/gmall/service/SpuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/OmsCartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/OmsOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/OmsOrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PaymentInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsBaseAttrInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsBaseAttrValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsBaseCatalog1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsBaseCatalog2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsBaseCatalog3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsBaseSaleAttr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsProductImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsProductInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsProductSaleAttr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsProductSaleAttrValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsSearchCrumb.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsSearchParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsSearchSkuInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsSkuAttrValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsSkuImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsSkuInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/PmsSkuSaleAttrValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/UmsMember.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/bean/UmsMemberReceiveAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/service/AttrService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/service/CatalogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/service/SkuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/service/SpuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/classes/com/atguigu/gmall/service/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/gamll-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamll-common-util/gamll-common-util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/gmall-manage-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/GmallManageServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseAttrInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseCatalog1Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseCatalog2Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseCatalog3Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsBaseSaleAttrMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsSkuAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsSkuImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsSkuInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/mapper/PmsSkuSaleAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/CatalogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/java/com/atguigu/gmall/manage/service/impl/SpuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/src/test/java/com/atguigu/gmall/manage/GmallManageServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/GmallManageServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsBaseAttrInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsBaseAttrValueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsBaseCatalog1Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsBaseCatalog2Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsBaseCatalog3Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsBaseSaleAttrMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsProductImageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsProductInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsProductSaleAttrValueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsSkuAttrValueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsSkuImageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsSkuInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/mapper/PmsSkuSaleAttrValueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/service/impl/AttrServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/service/impl/CatalogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/service/impl/SkuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/com/atguigu/gmall/manage/service/impl/SpuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-service/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/gmall-manage-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/GmallManageWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/AttrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/CatalogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SkuContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/controller/SpuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/java/com/atguigu/gmall/manage/util/PmsUploadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/main/resources/tracker.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/src/test/java/com/atguigu/gmall/manage/GmallManageWebApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/GmallManageWebApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/controller/AttrController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/controller/CatalogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/controller/SkuContoller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/controller/SpuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/com/atguigu/gmall/manage/util/PmsUploadUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/classes/tracker.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-manage-web/target/test-classes/com/atguigu/gmall/manage/GmallManageWebApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/gmall-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/target/gmall-parent-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/classworlds/classworlds/1.1-alpha-2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/atguigu/gmall/gmall-parent/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/atguigu/gmall/gmall-parent/1.0-SNAPSHOT/gmall-parent-1.0-SNAPSHOT.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/atguigu/gmall/gmall-parent/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/atguigu/gmall/gmall-parent/maven-metadata-local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/datastax/oss/java-driver-bom/4.9.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/fasterxml/jackson/jackson-bom/2.11.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/fasterxml/jackson/jackson-bom/2.11.3/jackson-bom-2.11.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/fasterxml/jackson/jackson-bom/2.11.3/jackson-bom-2.11.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/fasterxml/jackson/jackson-parent/2.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/fasterxml/oss-parent/38/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/fasterxml/oss-parent/38/oss-parent-38.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/fasterxml/oss-parent/38/oss-parent-38.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/ojdbc-bom-19.8.0.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/ojdbc-bom-19.8.0.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/commons-codec/commons-codec/1.6/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/dropwizard/metrics/metrics-bom/4.1.14/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/dropwizard/metrics/metrics-bom/4.1.14/metrics-bom-4.1.14.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/dropwizard/metrics/metrics-bom/4.1.14/metrics-bom-4.1.14.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/dropwizard/metrics/metrics-parent/4.1.14/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/dropwizard/metrics/metrics-parent/4.1.14/metrics-parent-4.1.14.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/dropwizard/metrics/metrics-parent/4.1.14/metrics-parent-4.1.14.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/micrometer/micrometer-bom/1.6.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/micrometer/micrometer-bom/1.6.1/micrometer-bom-1.6.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/micrometer/micrometer-bom/1.6.1/micrometer-bom-1.6.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/netty/netty-bom/4.1.54.Final/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/netty/netty-bom/4.1.54.Final/netty-bom-4.1.54.Final.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/netty/netty-bom/4.1.54.Final/netty-bom-4.1.54.Final.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/projectreactor/reactor-bom/2020.0.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/projectreactor/reactor-bom/2020.0.1/reactor-bom-2020.0.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/projectreactor/reactor-bom/2020.0.1/reactor-bom-2020.0.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/r2dbc/r2dbc-bom/Arabba-SR8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/r2dbc/r2dbc-bom/Arabba-SR8/r2dbc-bom-Arabba-SR8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/r2dbc/r2dbc-bom/Arabba-SR8/r2dbc-bom-Arabba-SR8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/rsocket/rsocket-bom/1.1.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/rsocket/rsocket-bom/1.1.0/rsocket-bom-1.1.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/io/rsocket/rsocket-bom/1.1.0/rsocket-bom-1.1.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/junit/junit/3.8.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/junit/junit/3.8.1/junit-3.8.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/junit/junit/3.8.1/junit-3.8.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/13/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/13/apache-13.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/13/apache-13.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/14/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/14/apache-14.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/14/apache-14.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/18/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/18/apache-18.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/18/apache-18.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/19/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/19/apache-19.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/19/apache-19.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/21/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/21/apache-21.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/21/apache-21.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/5/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/5/apache-5.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/5/apache-5.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/6/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/6/apache-6.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/6/apache-6.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/9/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/9/apache-9.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/apache/9/apache-9.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/commons/commons-parent/22/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/commons/commons-parent/22/commons-parent-22.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/commons/commons-parent/22/commons-parent-22.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/dubbo/dubbo-dependencies-bom/2.7.8/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/dubbo/dubbo-dependencies-bom/2.7.8/dubbo-dependencies-bom-2.7.8.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/dubbo/dubbo-dependencies-bom/2.7.8/dubbo-dependencies-bom-2.7.8.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/logging/log4j/log4j-bom/2.13.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/logging/logging-parent/1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/logging/logging-parent/1/logging-parent-1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/logging/logging-parent/1/logging-parent-1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact/2.2.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact/3.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-model/2.2.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-model/3.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/11/maven-parent-11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/11/maven-parent-11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/15/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/15/maven-parent-15.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/15/maven-parent-15.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/23/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/23/maven-parent-23.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/23/maven-parent-23.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/24/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/24/maven-parent-24.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/24/maven-parent-24.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/31/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/31/maven-parent-31.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-parent/31/maven-parent-31.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-api/3.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-profile/2.2.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-project/2.2.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-settings/2.2.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven/2.2.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven/2.2.1/maven-2.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven/2.2.1/maven-2.2.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven/3.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven/3.0/maven-3.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/maven/3.0/maven-3.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-clean-plugin/3.1.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-clean-plugin/3.1.0/maven-clean-plugin-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-clean-plugin/3.1.0/maven-clean-plugin-3.1.0.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-clean-plugin/3.1.0/maven-clean-plugin-3.1.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-clean-plugin/3.1.0/maven-clean-plugin-3.1.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-install-plugin/2.5.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-plugins/25/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-plugins/31/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-plugins/31/maven-plugins-31.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/plugins/maven-plugins/31/maven-plugins-31.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-components/19/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom.part" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom.part.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom.sha1-83dcd4981097314786699400457.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.4/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/groovy/groovy-bom/2.5.13/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/groovy/groovy-bom/2.5.13/groovy-bom-2.5.13.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/groovy/groovy-bom/2.5.13/groovy-bom-2.5.13.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-components/1.1.14/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-containers/1.0.3/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-containers/1.7.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/1.0.4/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.5/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.15/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/1.0.4/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/2.0.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/2.0.6/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/3.3.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/4.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/eclipse/ee4j/project/1.0.6/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/eclipse/jetty/jetty-bom/9.4.34.v20201102/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/eclipse/jetty/jetty-bom/9.4.34.v20201102/jetty-bom-9.4.34.v20201102.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/eclipse/jetty/jetty-bom/9.4.34.v20201102/jetty-bom-9.4.34.v20201102.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/glassfish/jersey/jersey-bom/2.32/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/infinispan/infinispan-bom/11.0.5.Final/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/infinispan/infinispan-bom/11.0.5.Final/infinispan-bom-11.0.5.Final.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/infinispan/infinispan-bom/11.0.5.Final/infinispan-bom-11.0.5.Final.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/infinispan/infinispan-build-configuration-parent/11.0.5.Final/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/infinispan/infinispan-build-configuration-parent/11.0.5.Final/infinispan-build-configuration-parent-11.0.5.Final.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/infinispan/infinispan-build-configuration-parent/11.0.5.Final/infinispan-build-configuration-parent-11.0.5.Final.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/jboss/jboss-parent/36/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/jboss/jboss-parent/36/jboss-parent-36.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/jboss/jboss-parent/36/jboss-parent-36.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/jetbrains/kotlin/kotlin-bom/1.4.10/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/jetbrains/kotlin/kotlin-bom/1.4.10/kotlin-bom-1.4.10.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/jetbrains/kotlin/kotlin-bom/1.4.10/kotlin-bom-1.4.10.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.1/kotlinx-coroutines-bom-1.4.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.1/kotlinx-coroutines-bom-1.4.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/junit/junit-bom/5.7.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/junit/junit-bom/5.7.0/junit-bom-5.7.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/junit/junit-bom/5.7.0/junit-bom-5.7.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/forge/forge-parent/10/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/forge/forge-parent/10/forge-parent-10.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/forge/forge-parent/10/forge-parent-10.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/forge/forge-parent/6/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/forge/forge-parent/6/forge-parent-6.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/forge/forge-parent/6/forge-parent-6.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/oss/oss-parent/7/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/oss/oss-parent/7/oss-parent-7.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/inject/guice-bean/1.4.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/inject/guice-plexus/1.4.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-inject/1.4.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-parent/1.4.2/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/spice/spice-parent/17/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/spice/spice-parent/17/spice-parent-17.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/sonatype/spice/spice-parent/17/spice-parent-17.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/boot/spring-boot-dependencies/2.4.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/boot/spring-boot-dependencies/2.4.0/spring-boot-dependencies-2.4.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/boot/spring-boot-dependencies/2.4.0/spring-boot-dependencies-2.4.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/boot/spring-boot-starter-parent/2.4.0/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/boot/spring-boot-starter-parent/2.4.0/spring-boot-starter-parent-2.4.0.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/boot/spring-boot-starter-parent/2.4.0/spring-boot-starter-parent-2.4.0.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/data/spring-data-bom/2020.0.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/data/spring-data-bom/2020.0.1/spring-data-bom-2020.0.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/data/spring-data-bom/2020.0.1/spring-data-bom-2020.0.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/integration/spring-integration-bom/5.4.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/integration/spring-integration-bom/5.4.1/spring-integration-bom-5.4.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/integration/spring-integration-bom/5.4.1/spring-integration-bom-5.4.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/security/spring-security-bom/5.4.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/security/spring-security-bom/5.4.1/spring-security-bom-5.4.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/security/spring-security-bom/5.4.1/spring-security-bom-5.4.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/session/spring-session-bom/2020.0.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/session/spring-session-bom/2020.0.1/spring-session-bom-2020.0.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/session/spring-session-bom/2020.0.1/spring-session-bom-2020.0.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/spring-framework-bom/4.3.16.RELEASE/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/spring-framework-bom/4.3.16.RELEASE/spring-framework-bom-4.3.16.RELEASE.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/spring-framework-bom/4.3.16.RELEASE/spring-framework-bom-4.3.16.RELEASE.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/spring-framework-bom/5.3.1/_remote.repositories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/spring-framework-bom/5.3.1/spring-framework-bom-5.3.1.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-parent/{user.home}/.m2/repository/org/springframework/spring-framework-bom/5.3.1/spring-framework-bom-5.3.1.pom.sha1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-service-util/gmall-service-util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-service/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-service/gmall-user-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-service/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-service/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/gmall-user-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/target/classes/META-INF/gmall-user-web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-user-web/target/classes/com/atguigu/gmall/userweb/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamall-user/src/main/java/com/atguigu/gmall/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamall-user/src/main/java/com/atguigu/gmall/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamll-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gamll-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamll-api/src/main/java/com/atguigu/gmall/bean/PmsBaseAttrInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamll-api/src/main/java/com/atguigu/gmall/bean/PmsBaseAttrInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamll-api/src/main/java/com/atguigu/gmall/bean/PmsProductSaleAttr.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamll-api/src/main/java/com/atguigu/gmall/bean/PmsProductSaleAttr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user-web/src/main/java/com/atguigu/gmall/userweb/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-web/src/main/java/com/atguigu/gmall/userweb/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-user-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-user-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-web-util/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/zhongjiawen/gmall0105.git" />
+      </set>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\gmall0105\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lTEEeftm5uoEbluYPz9rDXHS23" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmall-web-util" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.GamallUserApplication">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="gmall-service-util" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="gmall-service-util" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="gmall-service-util" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="gmall-service-util" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="gmall-service-util" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GamallUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gamall-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.user.GamallUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.user.GmallUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallUserWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-user-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.userweb.GmallUserWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="gmall-service-util" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="gmall-service-util" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="gmall-service-util" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.17076503" />
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec39ae98-9bcb-4318-861e-abd9725c1eab" name="Default Changelist" comment="manage 搭建成功" />
+      <created>1607612570482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607612570482</updated>
+      <workItem from="1607612573874" duration="175000" />
+      <workItem from="1607612766301" duration="26000" />
+      <workItem from="1607612837004" duration="18000" />
+      <workItem from="1607612879715" duration="339000" />
+      <workItem from="1607613257771" duration="38000" />
+      <workItem from="1607613303609" duration="1912000" />
+    </task>
+    <task id="LOCAL-00001" summary="manage 搭建成功">
+      <created>1607618664114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607618664114</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="manage 搭建成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="manage 搭建成功" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2372" y="100" key="#Notifications" timestamp="1607613311085">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2372" y="100" key="#Notifications/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607613311085" />
+    <state x="2372" y="100" key="#Project_Structure" timestamp="1607613576062">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2372" y="100" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607613576062" />
+    <state x="2254" y="55" key="CommitChangelistDialog2" timestamp="1607618656454">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2254" y="55" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607618656454" />
+    <state x="2257" y="178" key="DiffContextDialog" timestamp="1607618441980">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2257" y="178" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607618441980" />
+    <state x="2646" y="149" key="FileChooserDialogImpl" timestamp="1607613456044">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2646" y="149" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607613456044" />
+    <state width="1520" height="160" key="GridCell.Tab.0.bottom" timestamp="1607612528092">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1520" height="160" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607612528092" />
+    <state width="1520" height="160" key="GridCell.Tab.0.center" timestamp="1607612528091">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1520" height="160" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607612528091" />
+    <state width="1520" height="160" key="GridCell.Tab.0.left" timestamp="1607612528090">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1520" height="160" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607612528090" />
+    <state width="1520" height="160" key="GridCell.Tab.0.right" timestamp="1607612528091">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1520" height="160" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607612528091" />
+    <state width="1520" height="160" key="GridCell.Tab.1.bottom" timestamp="1607612528093">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1520" height="160" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607612528093" />
+    <state width="1520" height="160" key="GridCell.Tab.1.center" timestamp="1607612528092">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1520" height="160" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607612528092" />
+    <state width="1520" height="160" key="GridCell.Tab.1.left" timestamp="1607612528092">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1520" height="160" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607612528092" />
+    <state width="1520" height="160" key="GridCell.Tab.1.right" timestamp="1607612528092">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1520" height="160" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607612528092" />
+    <state x="2491" y="159" key="NewModule_or_Project.wizard" timestamp="1607613457368">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2491" y="159" key="NewModule_or_Project.wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607613457368" />
+    <state x="2268" y="0" key="SettingsEditor" timestamp="1607618303064">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2268" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607618303064" />
+    <state x="2589" y="196" key="VcsDiffUtil.ChangesDialog" timestamp="1607614084688">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2589" y="196" key="VcsDiffUtil.ChangesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607614084688" />
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1607614500456">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607614500456" />
+    <state x="2512" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1607613293459">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2512" y="308" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607613293459" />
+    <state x="2642" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607613613396">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2642" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607613613396" />
+    <state x="2540" y="285" key="git4idea.merge.GitPullDialog" timestamp="1607613730409">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2540" y="285" key="git4idea.merge.GitPullDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607613730409" />
+    <state x="2676" y="410" key="git4idea.ui.GitResetDialog" timestamp="1607612939493">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2676" y="410" key="git4idea.ui.GitResetDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607612939493" />
+    <state x="2117" y="205" key="new project wizard" timestamp="1607613131628">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2117" y="205" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607613131628" />
+  </component>
+</project>

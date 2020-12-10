@@ -21,6 +21,7 @@ public class PmsBaseAttrInfo implements Serializable {
     private String catalog3Id;
     @Column
     private String isEnabled;
+    //这个标注短暂的 不进行映射 与序列化规则
     @Transient
     List<PmsBaseAttrValue> attrValueList;
 

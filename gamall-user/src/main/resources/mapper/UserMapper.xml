@@ -8,9 +8,9 @@
         select t.* from ums_member t;
 
     </select>
-<!--    <insert id="insertStudent">-->
+    <!--    <insert id="insertStudent">-->
 
-<!--        insert into zhong.student values(#{id},#{name},#{email},#{age})-->
+    <!--        insert into zhong.student values(#{id},#{name},#{email},#{age})-->
 
-<!--    </insert>-->
+    <!--    </insert>-->
 </mapper>

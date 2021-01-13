@@ -4,8 +4,8 @@ import com.atguigu.gmall.bean.*;
 import com.atguigu.gmall.manage.mapper.*;
 import com.atguigu.gmall.service.CatalogService;
 import com.atguigu.gmall.service.SpuService;
+
 import org.apache.dubbo.config.annotation.DubboService;
-import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -92,5 +92,29 @@ public class SpuServiceImpl implements SpuService {
         pmsProductImage.setProductId(String.valueOf(Long.parseLong(spuId)));
         List<PmsProductImage> pmsProductImages = pmsProductImageMapper.select(pmsProductImage);
         return pmsProductImages;
+    }
+
+    @Override
+    public List<PmsProductSaleAttr> spuSaleAttrListCheckBySku(String productId,String skuId) {
+//        PmsProductSaleAttr pmsProductSaleAttr = new PmsProductSaleAttr();
+//        pmsProductSaleAttr.setProductId(Long.valueOf(productId));
+//        List<PmsProductSaleAttr> pmsProductSaleAttrs = pmsProductSaleAttrMapper.select(pmsProductSaleAttr);
+//
+//     for(PmsProductSaleAttr productSaleAttr : pmsProductSaleAttrs){
+//         Long saleAttrId = productSaleAttr.getSaleAttrId();
+//         PmsProductSaleAttrValue pmsProductSaleAttrValue = new PmsProductSaleAttrValue();
+//         pmsProductSaleAttrValue.setSaleAttrId(String.valueOf(saleAttrId));
+//         pmsProductSaleAttrValue.setProductId(productId);
+//
+//        List<PmsProductSaleAttrValue> pmsProductSaleAttrValues =  pmsProductSaleAttrValueMapper.select(pmsProductSaleAttrValue);
+//        productSaleAttr.setSpuSaleAttrValueList(pmsProductSaleAttrValues);
+//
+//     }
+
+
+   // List<PmsBaseSaleAttr> pmsProductSaleAttrs = pmsProductSaleAttrMapper.selectSpuSaleAttrListCheckBySku(productId,skuId);
+     List<PmsProductSaleAttr> pmsProductSaleAttrs = pmsProductSaleAttrMapper.selectSpuSaleAttrListCheckBySku(productId,skuId);
+
+        return pmsProductSaleAttrs;
     }
 }

@@ -1,7 +1,6 @@
 package com.atguigu.gmall.service;
 
 
-
 import com.atguigu.gmall.bean.PmsSkuInfo;
 
 import java.math.BigDecimal;
@@ -12,11 +11,12 @@ public interface SkuService {
 
     void saveSkuInfo(PmsSkuInfo pmsSkuInfo);
 
-    PmsSkuInfo getSkuById(String skuId);
 
     List<PmsSkuInfo> getSkuSaleAttrValueListBySpu(Long productId);
 
-    List<PmsSkuInfo> getAllSku();
+    List<PmsSkuInfo> getAllSku(String catalog3Id);
 
     boolean checkPrice(Long productSkuId, BigDecimal price);
+
+    PmsSkuInfo getSkuById(String skuId, String ip);
 }

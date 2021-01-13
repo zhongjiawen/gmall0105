@@ -18,7 +18,7 @@ import java.util.List;
 @Controller
 @CrossOrigin
 public class AttrController {
-    @DubboReference(interfaceClass = AttrService.class,version = "${demo.service.version}" )
+    @DubboReference(version = "111", interfaceClass = AttrService.class)
     AttrService attrService;
 //    /saveAttrInfo
 

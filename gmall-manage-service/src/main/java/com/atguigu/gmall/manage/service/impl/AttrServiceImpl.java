@@ -14,6 +14,8 @@ import tk.mybatis.mapper.entity.Example;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+
 //dubbd的配置 版本 以及接口
 @DubboService(version = "${demo.service.version}",interfaceClass = AttrService.class)
 public class AttrServiceImpl implements AttrService {
@@ -115,5 +117,13 @@ public class AttrServiceImpl implements AttrService {
 //         List<PmsBaseSaleAttr> pmsBaseSaleAttrs = pmsBaseSaleAttrMapper.select(pmsBaseSaleAttr);
         //通用的属性的选择框 所以选择所有
          return  pmsBaseSaleAttrMapper.selectAll();
+    }
+
+    @Override
+    public List<PmsBaseAttrInfo> getAttrValueListByValueId(Set<String> valueIdSet) {
+        //用来解析的
+        String valueIdStr = StringUtils.join(valueIdSet, ",");
+        List<PmsBaseAttrInfo> pmsBaseAttrInfos = pmsBaseAttrInfoMapper.selectAttrValueListByValueId(valueIdStr);
+        return pmsBaseAttrInfos;
     }
 }

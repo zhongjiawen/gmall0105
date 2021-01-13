@@ -6,16 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gamall-user" />
-        <module name="fastdfs-client-java" />
-        <module name="demo" />
-        <module name="gamll-service-util" />
-        <module name="gmall-manage-service" />
-        <module name="gamll-api" />
-        <module name="gmall-user-web" />
-        <module name="gmall-manage-web" />
+        <module name="gmall-order-web" />
         <module name="gmall-web-util" />
+        <module name="gmall-search-service" />
+        <module name="gamll-api" />
+        <module name="gmall-manage-web" />
+        <module name="gmall-serach-web" />
+        <module name="gmall-order-service" />
+        <module name="fastdfs-client-java" />
+        <module name="gmall-cart-service" />
+        <module name="gmall-manage-service" />
+        <module name="gamall-user" />
+        <module name="gmall-payment" />
         <module name="gmall-user-service" />
+        <module name="gmall-passport-web" />
+        <module name="gmall-service-util" />
+        <module name="gmall-cart-web" />
+        <module name="gmall-user-web" />
+        <module name="redissiontest" />
+        <module name="gmall-seckill" />
+        <module name="gmall-item-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,26 +33,35 @@
       <module name="gamall-user" target="1.8" />
       <module name="gamll-api" target="1.8" />
       <module name="gamll-common-util" target="1.8" />
+      <module name="gmall-cart-service" target="1.8" />
+      <module name="gmall-cart-web" target="1.8" />
+      <module name="gmall-item-web" target="1.8" />
       <module name="gmall-manage-service" target="1.8" />
       <module name="gmall-manage-web" target="1.8" />
+      <module name="gmall-order-service" target="1.8" />
+      <module name="gmall-order-web" target="1.8" />
       <module name="gmall-parent" target="1.8" />
+      <module name="gmall-passport-web" target="1.8" />
+      <module name="gmall-payment" target="1.8" />
+      <module name="gmall-search-service" target="1.8" />
+      <module name="gmall-seckill" target="1.8" />
+      <module name="gmall-serach-web" target="1.8" />
       <module name="gmall-service-util" target="1.8" />
       <module name="gmall-user-service" target="1.8" />
       <module name="gmall-user-web" target="1.8" />
       <module name="gmall-web-util" target="1.8" />
+      <module name="redissiontest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="gamall-user" options="" />
-      <module name="gamll-api" options="" />
-      <module name="gamll-common-util" options="" />
-      <module name="gmall-manage-service" options="" />
-      <module name="gmall-manage-web" options="" />
-      <module name="gmall-service-util" options="-parameters" />
-      <module name="gmall-user-service" options="" />
-      <module name="gmall-user-web" options="" />
-      <module name="gmall-web-util" options="" />
+      <module name="gmall-cart-service" options="" />
+      <module name="gmall-cart-web" options="" />
+      <module name="gmall-passport-web" options="" />
+      <module name="gmall-payment" options="" />
+      <module name="gmall-search-service" options="" />
+      <module name="gmall-serach-web" options="" />
+      <module name="redissiontest" options="" />
     </option>
   </component>
 </project>

@@ -3,11 +3,9 @@ package com.atguigu.gmall.bean;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * @autor huihui
- * @date 2020/11/1 - 17:18
- */
-public class PmsSearchParam implements Serializable{
+
+
+public class PmsSearchParam implements Serializable {
 
     private String catalog3Id;
 

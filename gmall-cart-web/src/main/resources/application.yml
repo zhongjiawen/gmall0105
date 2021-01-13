@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: cart-web
+
+demo:
+  service:
+    version: 113
+
+#embedded:
+#  zookeeper:
+#    port: 2181
+
+dubbo:
+  registry:
+    address: zookeeper://101.200.77.143:2181;zookeeper://101.200.77.143:2182;zookeeper://101.200.77.143:2183
+#    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache

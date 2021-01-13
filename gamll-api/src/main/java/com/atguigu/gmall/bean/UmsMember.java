@@ -1,8 +1,5 @@
 package com.atguigu.gmall.bean;
 
-import tk.mybatis.mapper.annotation.ColumnType;
-
-import javax.persistence.Column;
 import javax.persistence.Id;
 import java.io.Serializable;
 import java.util.Date;
@@ -31,10 +28,9 @@ public class UmsMember implements Serializable {
     private int historyIntegration;
 
     //添加新浪微博信息字段
-//    @Column
-//    private String sourceUid;
-//    private String accessToken;
-//    private String accessCode;
+    private String sourceUid;
+    private String accessToken;
+    private String accessCode;
 
     public String getGender() {
         return gender;
@@ -52,29 +48,29 @@ public class UmsMember implements Serializable {
         this.sourceType = sourceType;
     }
 
-//    public String getSourceUid() {
-//        return sourceUid;
-//    }
-//
-//    public void setSourceUid(String sourceUid) {
-//        this.sourceUid = sourceUid;
-//    }
-//
-//    public String getAccessToken() {
-//        return accessToken;
-//    }
-//
-//    public void setAccessToken(String accessToken) {
-//        this.accessToken = accessToken;
-//    }
-//
-//    public String getAccessCode() {
-//        return accessCode;
-//    }
-//
-//    public void setAccessCode(String accessCode) {
-//        this.accessCode = accessCode;
-//    }
+    public String getSourceUid() {
+        return sourceUid;
+    }
+
+    public void setSourceUid(String sourceUid) {
+        this.sourceUid = sourceUid;
+    }
+
+    public String getAccessToken() {
+        return accessToken;
+    }
+
+    public void setAccessToken(String accessToken) {
+        this.accessToken = accessToken;
+    }
+
+    public String getAccessCode() {
+        return accessCode;
+    }
+
+    public void setAccessCode(String accessCode) {
+        this.accessCode = accessCode;
+    }
 
     public String getId() {
         return id;
@@ -212,5 +208,33 @@ public class UmsMember implements Serializable {
 
     public void setHistoryIntegration(int historyIntegration) {
         this.historyIntegration = historyIntegration;
+    }
+
+    public UmsMember(String id, String memberLevelId, String username, String password, String nickname, String phone, int status, Date createTime, String icon, String gender, Date birthday, String city, String job, String personalizedSignature, String sourceType, int integration, int growth, int luckeyCount, int historyIntegration, String sourceUid, String accessToken, String accessCode) {
+        this.id = id;
+        this.memberLevelId = memberLevelId;
+        this.username = username;
+        this.password = password;
+        this.nickname = nickname;
+        this.phone = phone;
+        this.status = status;
+        this.createTime = createTime;
+        this.icon = icon;
+        this.gender = gender;
+        this.birthday = birthday;
+        this.city = city;
+        this.job = job;
+        this.personalizedSignature = personalizedSignature;
+        this.sourceType = sourceType;
+        this.integration = integration;
+        this.growth = growth;
+        this.luckeyCount = luckeyCount;
+        this.historyIntegration = historyIntegration;
+        this.sourceUid = sourceUid;
+        this.accessToken = accessToken;
+        this.accessCode = accessCode;
+    }
+
+    public UmsMember() {
     }
 }

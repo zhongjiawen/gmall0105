@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.dropwizard.metrics</groupId>
@@ -165,7 +166,9 @@
                         <configuration>
                             <fork>true</fork>
                             <compilerArgs combine.children="append">
-                                <arg>-J-Xbootclasspath/p:${settings.localRepository}/com/google/errorprone/javac/${errorprone.javac.version}/javac-${errorprone.javac.version}.jar</arg>
+                                <arg>
+                                    -J-Xbootclasspath/p:${settings.localRepository}/com/google/errorprone/javac/${errorprone.javac.version}/javac-${errorprone.javac.version}.jar
+                                </arg>
                             </compilerArgs>
                         </configuration>
                     </plugin>
@@ -292,7 +295,7 @@
                         <id>enforce</id>
                         <configuration>
                             <rules>
-                                <DependencyConvergence />
+                                <DependencyConvergence/>
                             </rules>
                         </configuration>
                         <goals>

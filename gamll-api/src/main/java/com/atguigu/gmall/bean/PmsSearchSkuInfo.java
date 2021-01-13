@@ -9,7 +9,7 @@ import java.util.List;
  * @autor huihui
  * @date 2020/11/1 - 13:42
  */
-public class PmsSearchSkuInfo implements Serializable{
+public class PmsSearchSkuInfo implements Serializable {
     @Id
     private String id;
     private String skuName;
